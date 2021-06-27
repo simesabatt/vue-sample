@@ -1,28 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <BootstrapVue/> -->
+    <!-- <ModalWindow/> -->
+    <!-- <Carousel/> -->
+    <Tab/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  // import BootstrapVue from './views/BootstrapVue.vue'
+  // import ModalWindow from './views/ModalWindow.vue'
+  // import Carousel from './views/Carousel.vue'
+  import Tab from './views/Tab.vue'
+  export default {
+    name: 'app',
+    components: {
+      // BootstrapVue,
+      // ModalWindow
+      // Carousel
+      Tab
+    }
   }
-}
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
